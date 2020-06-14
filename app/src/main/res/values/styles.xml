@@ -1,0 +1,38 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@android:color/background_dark</item>
+        <item name="colorAccent">#E91E63</item>
+    </style>
+
+    <style name="NumberButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#E6736F6F</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">39sp</item>
+        <item name="android:layout_margin">0.5dp</item>
+    </style>
+
+    <style name="ActionButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#FFC107</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">70sp</item>
+        <item name="android:layout_margin">0.5dp</item>
+    </style>
+    
+    <style name="LinearStyle">
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="background">@android:color/background_dark</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+</resources>
